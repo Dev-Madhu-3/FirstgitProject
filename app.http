@@ -1,0 +1,9 @@
+PUT http://localhost:3000/todos/1
+Content-Type: Application/json
+
+{
+    "todo": "Watch Movie" 
+}
+###
+
+GET http://localhost:3000/todos
